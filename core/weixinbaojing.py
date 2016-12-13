@@ -13,8 +13,8 @@ class ZabbixSendMail():
         self.argv = sys_argv
         self.url = "https://qyapi.weixin.qq.com/cgi-bin/gettoken"
         self.value = {
-            'corpid':"wx5a109e09d5044152",
-            'corpsecret' : "0fiTLHoU0SBtNcBm4huzPILDt0QxjhdsVcnNBPVw9lVCR3vGVf7wf2p4HDTiilaQ"
+            'corpid':"********",
+            'corpsecret' : "***************"
         }
         self.sendmail_url = "https://qyapi.weixin.qq.com/cgi-bin/message/send"
         self.access_resprons = requests.get(self.url, params=self.value)
